@@ -2,20 +2,7 @@ from fontTools.ttLib import TTFont
 
 '''Generate WOFF from TTF or OTF font.'''
 
-srcPath  = './ttf/SMTSans-Thin.ttf'
-woffPath = './web/SMTSans-Thin.woff'
 
-with TTFont(srcPath) as font:
-    font.flavor = 'woff'
-    font.save(woffPath)
-
-srcPath  = './ttf/SMTSans-ThinItalic.ttf'
-woffPath = './web/SMTSans-ThinItalic.woff'
-
-with TTFont(srcPath) as font:
-    font.flavor = 'woff'
-    font.save(woffPath)
-    
 srcPath  = './ttf/SMTSans-ExtraLight.ttf'
 woffPath = './web/SMTSans-ExtraLight.woff'
 
@@ -29,7 +16,7 @@ woffPath = './web/SMTSans-ExtraLightItalic.woff'
 with TTFont(srcPath) as font:
     font.flavor = 'woff'
     font.save(woffPath)
-   
+    
 srcPath  = './ttf/SMTSans-Light.ttf'
 woffPath = './web/SMTSans-Light.woff'
 
@@ -43,7 +30,16 @@ woffPath = './web/SMTSans-LightItalic.woff'
 
 with TTFont(srcPath) as font:
     font.flavor = 'woff'
-    font.save(woffPath)       
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-LightItalic.ttf'
+woffPath = './web/SMTSans-LightItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
     
 srcPath  = './ttf/SMTSans-Regular.ttf'
 woffPath = './web/SMTSans-Regular.woff'
@@ -76,6 +72,7 @@ with TTFont(srcPath) as font:
     font.flavor = 'woff'
     font.save(woffPath)    
 
+    
 srcPath  = './ttf/SMTSans-SemiBold.ttf'
 woffPath = './web/SMTSans-SemiBold.woff'
 
@@ -89,7 +86,24 @@ woffPath = './web/SMTSans-SemiBoldItalic.woff'
 
 with TTFont(srcPath) as font:
     font.flavor = 'woff'
-    font.save(woffPath) 
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiBold.ttf'
+woffPath = './web/SMTSans-SemiBold.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiBoldItalic.ttf'
+woffPath = './web/SMTSans-SemiBoldItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
     
 srcPath  = './ttf/SMTSans-Bold.ttf'
 woffPath = './web/SMTSans-Bold.woff'
@@ -139,23 +153,309 @@ with TTFont(srcPath) as font:
     font.save(woffPath)    
 
 
+srcPath  = './ttf/SMTSans-SemiCondensedExtraLight.ttf'
+woffPath = './web/SMTSans-SemiCondensedExtraLight.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)
+
+srcPath  = './ttf/SMTSans-SemiCondensedExtraLightItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedExtraLightItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)
+    
+srcPath  = './ttf/SMTSans-SemiCondensedLight.ttf'
+woffPath = './web/SMTSans-SemiCondensedLight.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedLightItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedLightItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedLightItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedLightItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensed.ttf'
+woffPath = './web/SMTSans-SemiCondensed.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedMedium.ttf'
+woffPath = './web/SMTSans-SemiCondensedMedium.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedMediumItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedMediumItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedSemiBold.ttf'
+woffPath = './web/SMTSans-SemiCondensedSemiBold.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedSemiBoldItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedSemiBoldItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedSemiBold.ttf'
+woffPath = './web/SMTSans-SemiCondensedSemiBold.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedSemiBoldItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedSemiBoldItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedBold.ttf'
+woffPath = './web/SMTSans-SemiCondensedBold.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedBoldItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedBoldItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedExtraBold.ttf'
+woffPath = './web/SMTSans-SemiCondensedExtraBold.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedExtraBoldItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedExtraBoldItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedBlack.ttf'
+woffPath = './web/SMTSans-SemiCondensedBlack.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedBlackItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedBlackItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+    
+
+srcPath  = './ttf/SMTSans-CondensedExtraLight.ttf'
+woffPath = './web/SMTSans-CondensedExtraLight.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)
+
+srcPath  = './ttf/SMTSans-CondensedExtraLightItalic.ttf'
+woffPath = './web/SMTSans-CondensedExtraLightItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)
+    
+srcPath  = './ttf/SMTSans-CondensedLight.ttf'
+woffPath = './web/SMTSans-CondensedLight.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedLightItalic.ttf'
+woffPath = './web/SMTSans-CondensedLightItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedLightItalic.ttf'
+woffPath = './web/SMTSans-CondensedLightItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-Condensed.ttf'
+woffPath = './web/SMTSans-Condensed.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedItalic.ttf'
+woffPath = './web/SMTSans-CondensedItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedMedium.ttf'
+woffPath = './web/SMTSans-CondensedMedium.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedMediumItalic.ttf'
+woffPath = './web/SMTSans-CondensedMediumItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedSemiBold.ttf'
+woffPath = './web/SMTSans-CondensedSemiBold.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedSemiBoldItalic.ttf'
+woffPath = './web/SMTSans-CondensedSemiBoldItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedSemiBold.ttf'
+woffPath = './web/SMTSans-CondensedSemiBold.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedSemiBoldItalic.ttf'
+woffPath = './web/SMTSans-CondensedSemiBoldItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedBold.ttf'
+woffPath = './web/SMTSans-CondensedBold.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedBoldItalic.ttf'
+woffPath = './web/SMTSans-CondensedBoldItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedExtraBold.ttf'
+woffPath = './web/SMTSans-CondensedExtraBold.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedExtraBoldItalic.ttf'
+woffPath = './web/SMTSans-CondensedExtraBoldItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedBlack.ttf'
+woffPath = './web/SMTSans-CondensedBlack.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedBlackItalic.ttf'
+woffPath = './web/SMTSans-CondensedBlackItalic.woff'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)    
+
 
 '''Generate WOFF2 from TTF or OTF font.'''
 
-srcPath  = './ttf/SMTSans-Thin.ttf'
-woff2Path = './web/SMTSans-Thin.woff2'
 
-with TTFont(srcPath) as font:
-    font.flavor = 'woff2'
-    font.save(woff2Path)
-
-srcPath  = './ttf/SMTSans-ThinItalic.ttf'
-woff2Path = './web/SMTSans-ThinItalic.woff2'
-
-with TTFont(srcPath) as font:
-    font.flavor = 'woff2'
-    font.save(woff2Path)
- 
 srcPath  = './ttf/SMTSans-ExtraLight.ttf'
 woff2Path = './web/SMTSans-ExtraLight.woff2'
 
@@ -169,9 +469,17 @@ woff2Path = './web/SMTSans-ExtraLightItalic.woff2'
 with TTFont(srcPath) as font:
     font.flavor = 'woff2'
     font.save(woff2Path)
- 
+    
 srcPath  = './ttf/SMTSans-Light.ttf'
 woff2Path = './web/SMTSans-Light.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woff2Path)    
+
+    
+srcPath  = './ttf/SMTSans-LightItalic.ttf'
+woff2Path = './web/SMTSans-LightItalic.woff2'
 
 with TTFont(srcPath) as font:
     font.flavor = 'woff2'
@@ -217,6 +525,7 @@ with TTFont(srcPath) as font:
     font.flavor = 'woff2'
     font.save(woff2Path)    
 
+    
 srcPath  = './ttf/SMTSans-SemiBold.ttf'
 woff2Path = './web/SMTSans-SemiBold.woff2'
 
@@ -231,7 +540,24 @@ woff2Path = './web/SMTSans-SemiBoldItalic.woff2'
 with TTFont(srcPath) as font:
     font.flavor = 'woff2'
     font.save(woff2Path)    
- 
+
+    
+srcPath  = './ttf/SMTSans-SemiBold.ttf'
+woff2Path = './web/SMTSans-SemiBold.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woff2Path)    
+
+    
+srcPath  = './ttf/SMTSans-SemiBoldItalic.ttf'
+woff2Path = './web/SMTSans-SemiBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woff2Path)    
+
+    
 srcPath  = './ttf/SMTSans-Bold.ttf'
 woff2Path = './web/SMTSans-Bold.woff2'
 
@@ -277,4 +603,304 @@ woff2Path = './web/SMTSans-BlackItalic.woff2'
 
 with TTFont(srcPath) as font:
     font.flavor = 'woff2'
-    font.save(woff2Path)    
+    font.save(woff2Path)
+    
+
+srcPath  = './ttf/SMTSans-SemiCondensedExtraLight.ttf'
+woffPath = './web/SMTSans-SemiCondensedExtraLight.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)
+
+srcPath  = './ttf/SMTSans-SemiCondensedExtraLightItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedExtraLightItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)
+    
+srcPath  = './ttf/SMTSans-SemiCondensedLight.ttf'
+woffPath = './web/SMTSans-SemiCondensedLight.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedLightItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedLightItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedLightItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedLightItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensed.ttf'
+woffPath = './web/SMTSans-SemiCondensed.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedMedium.ttf'
+woffPath = './web/SMTSans-SemiCondensedMedium.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedMediumItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedMediumItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedSemiBold.ttf'
+woffPath = './web/SMTSans-SemiCondensedSemiBold.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedSemiBoldItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedSemiBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedSemiBold.ttf'
+woffPath = './web/SMTSans-SemiCondensedSemiBold.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedSemiBoldItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedSemiBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedBold.ttf'
+woffPath = './web/SMTSans-SemiCondensedBold.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedBoldItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedExtraBold.ttf'
+woffPath = './web/SMTSans-SemiCondensedExtraBold.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedExtraBoldItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedExtraBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedBlack.ttf'
+woffPath = './web/SMTSans-SemiCondensedBlack.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-SemiCondensedBlackItalic.ttf'
+woffPath = './web/SMTSans-SemiCondensedBlackItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+    
+
+srcPath  = './ttf/SMTSans-CondensedExtraLight.ttf'
+woffPath = './web/SMTSans-CondensedExtraLight.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)
+
+srcPath  = './ttf/SMTSans-CondensedExtraLightItalic.ttf'
+woffPath = './web/SMTSans-CondensedExtraLightItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)
+    
+srcPath  = './ttf/SMTSans-CondensedLight.ttf'
+woffPath = './web/SMTSans-CondensedLight.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedLightItalic.ttf'
+woffPath = './web/SMTSans-CondensedLightItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedLightItalic.ttf'
+woffPath = './web/SMTSans-CondensedLightItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-Condensed.ttf'
+woffPath = './web/SMTSans-Condensed.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedItalic.ttf'
+woffPath = './web/SMTSans-CondensedItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedMedium.ttf'
+woffPath = './web/SMTSans-CondensedMedium.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedMediumItalic.ttf'
+woffPath = './web/SMTSans-CondensedMediumItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedSemiBold.ttf'
+woffPath = './web/SMTSans-CondensedSemiBold.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedSemiBoldItalic.ttf'
+woffPath = './web/SMTSans-CondensedSemiBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedSemiBold.ttf'
+woffPath = './web/SMTSans-CondensedSemiBold.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedSemiBoldItalic.ttf'
+woffPath = './web/SMTSans-CondensedSemiBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedBold.ttf'
+woffPath = './web/SMTSans-CondensedBold.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedBoldItalic.ttf'
+woffPath = './web/SMTSans-CondensedBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedExtraBold.ttf'
+woffPath = './web/SMTSans-CondensedExtraBold.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedExtraBoldItalic.ttf'
+woffPath = './web/SMTSans-CondensedExtraBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedBlack.ttf'
+woffPath = './web/SMTSans-CondensedBlack.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
+
+    
+srcPath  = './ttf/SMTSans-CondensedBlackItalic.ttf'
+woffPath = './web/SMTSans-CondensedBlackItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woffPath)    
