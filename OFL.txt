@@ -1,4 +1,4 @@
-Copyright 2024 TikTok Inc. (https://github.com/tiktok/TikTokSans)
+Copyright 2023 ChillType, with Reserved Font Names: "ChillDIN", "ChillDINGothic"
 Copyright 2025 The SMT Sans Project Authors (https://github.com/cssobral2013/SMT-Sans)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
